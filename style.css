@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'nutino', sans-serif;
+}
+
+
+body{
+    font-family: 'nutino', sans-serif;
+    line-height: 1.7;
+
+}
+
+.head{
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+
+.nav_container{
+    background: white;
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    top: 0rem;
+    position: relative;
+    align-items: center;
+    
+    z-index: 10;
+    
+    margin-top: 1rem;
+    z-index: 11;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+    position: relative;
+    left: 45%;
+    bottom: 3rem;
+    
+    
+    
+
+}
+
+.nav_menu a{
+    font-size: 1rem;
+    transition:  all 400ms ease;
+    color: rgb(71, 66, 66);
+}
+
+.nav_menu a.active,
+
+
+.nav_menu a:hover{
+    background: rgb(9, 184, 9);
+    border: 5px solid transparent;
+    border-radius: 4px;
+    color: white;
+}
+
+
+.nav_container h1{
+    margin: 1rem;
+
+}
+
+
+
+.welcome{
+    margin: 10rem;
+    display: inline-flex;
+    grid-template-columns: repeat(2, 1fr 1fr);
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+
+i{
+    font-size: 30px;
+    margin: 1rem;
+    color: black;
+    
+}
+
+.serach{
+margin-left: -5rem;
+background-color: transparent;
+}
+
+
+
+.img{
+    left: 5rem;
+    padding-left: 5rem;
+    position: relative;
+    
+    
+
+ 
+    
+   
+   
+}
+
+
+.hello{
+    width: 40%;
+}
+
+
+
+.hello h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgb(9, 184, 9);
+    ;
+}
+
+
+.hello h2{
+    font-size: 60;
+    display:inline;
+}
+
+
+.btn1{
+    background: rgb(3, 32, 112);
+    border: 12px  solid transparent;
+    color: white;
+ 
+    border-radius: 10px;
+    top: 1rem;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.our_dishes{
+    margin: 10rem 0 0;
+    
+    text-align: center;
+}
+
+
+
+
+
+
+.small{
+    color: rgb(9, 184, 9);
+    font-size: 20px;
+}
+h2{
+    color: rgb(3, 32, 112);
+    font-size: 30px;
+}
+
+
+
+.dishes_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin: 5rem 5rem;
+    cursor: pointer;
+    
+  
+
+
+}
+
+
+
+
+
+
+.dishe{
+    border: 5px solid transparent;
+    box-shadow: 0 0.5rem 1rem 0rem rgb(0 0 0 / 30%);
+    padding: 2rem;
+}
+
+.dishe:hover{
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+        z-index: 1;
+
+}
+
+
+
+.info_dishe{
+    text-align: center;
+    margin-top: 1rem;
+    display: grid;
+    
+   
+}
+
+
+
+h3{
+    color:rgb(3, 32, 112) ;
+}
+
+h4{
+    color: rgb(9, 184, 9);
+    font-size: 20px;
+}
+
+
+
+.btn{
+    background: rgb(3, 32, 112);
+    border: 12px solid transparent;
+    color: white;
+    border-radius: 10px;
+    top: 2rem;
+    
+}
+
+
+
+
+.about_us{
+    align-items: center;
+    margin: 5rem;
+    margin-top: 20rem;
+}
+
+
+.us{
+    text-align: center;
+    margin-bottom: 8rem;
+
+
+}
+
+
+.us small{
+    color: rgb(9, 184, 9);
+    font-size: 30px;
+}
+
+
+.us h2 {
+    color: rgb(3, 32, 112);
+    font-size: 50px;
+    
+}
+
+.best_food{
+    position: relative;
+    left:  50%;
+    width: 40%;
+    bottom: 26rem;
+    margin: 5rem;
+}
+
+.best_food h1{
+    font-size: 30px;
+    color: rgb(3, 32, 112);
+}
+
+.best_food p{
+    font-family: cursive;
+    margin-bottom: 17rem;
+}
+
+
+
+
+
+
+
+footer {
+    background: rgb(241, 236, 236);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    
+
+
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+}
+
+.footer_container>div h4 {
+    margin-bottom: 1.2rem;
+
+}
+
+.footer p {
+    margin: 0 0 2rem;
+    color: black;
+
+}
+
+footer ul li {
+    margin-bottom: 00.7rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer_social {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: aliceblue;
+}
+
+.footer_copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid white;
+    box-shadow: 0 0.5rem 1rem 0rem rgb(0 0 0 / 30%);
+    margin-left: -2rem;
+}
